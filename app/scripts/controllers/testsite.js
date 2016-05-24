@@ -10,6 +10,8 @@
 angular.module('angularTestApp')
   .controller('TestsiteCtrl', function ($scope, ngDialog) {
     var vm = this;
+    vm.totals = [];
+    
     vm.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
