@@ -1,0 +1,28 @@
+<div class="containter">
+	<div class="row well">
+	    <div class="col-md-12">hello</div>
+	</div>
+	
+	<div class="row">
+	    <div class="col-md-6 well">hello</div>
+	    <div class="col-md-6 well">hello</div>
+	</div>
+	
+	<div class="row">
+	    <div class="col-md-3 well">hello</div>
+	    <div class="col-md-3 well">hello</div>
+	    <div class="col-md-3 well">hello</div>
+	    <div class="col-md-3 well">hello</div>
+	</div>
+	
+	<p>This is the testSite view.</p>
+	<ul>
+	    <li ng-repeat="items in vm.awesomeThings" style="list-style:none">
+	        <i class="glyphicon glyphicon-chevron-right"></i> {{items}}
+	    </li>
+	</ul>
+	
+	<my-directive></my-directive>
+	
+	<button ng-click="vm.openDialog()">Open Dialog</button>
+</div>	
