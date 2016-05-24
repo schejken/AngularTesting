@@ -9,7 +9,11 @@
 	
 	<div class="row">
 	    <div class="col-md-6 well">
-            <button ng-click="vm.totals.push(0)">Add</button>
+            <button ng-click="vm.totals.push(theName)">Add</button>
+            <input type="text" ng-model="theName">
+            <ul>
+                <add-tables ng-repeat="t in vm.totals track by $index"></add-tables>
+            </ul>
         </div>
 	    <div class="col-md-6 well">hello</div>
 	</div>
