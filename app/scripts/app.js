@@ -35,6 +35,21 @@ angular
         controller: 'TestsiteCtrl',
         controllerAs: 'vm'
       })
+      .when('/AngularNavTest', {
+        templateUrl: 'views/angularnavtest.html',
+        controller: 'AngularnavtestCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/Animations', {
+        templateUrl: 'views/animations.html',
+        controller: 'AnimationsCtrl',
+        controllerAs: 'Animations'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
+      })
       .otherwise({
         redirectTo: '/'
       });

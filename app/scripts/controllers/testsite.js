@@ -9,6 +9,7 @@
  */
 angular.module('angularTestApp')
   .controller('TestsiteCtrl', function ($scope, ngDialog) {
+    $scope.pageClass = "page-testsite";
     var vm = this;
     vm.totals = [];
     

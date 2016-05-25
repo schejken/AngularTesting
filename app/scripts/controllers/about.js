@@ -8,7 +8,8 @@
  * Controller of the angularTestApp
  */
 angular.module('angularTestApp')
-  .controller('AboutCtrl', function () {
+  .controller('AboutCtrl', function ($scope) {
+    $scope.pageClass = "page-about";
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
