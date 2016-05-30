@@ -13,6 +13,25 @@ angular.module('angularTestApp')
     var vm = this;
     vm.totals = [];
     
+    vm.value1 = 12312;
+    vm.value2 = 3234;
+    
+    vm.theObject = [
+    {
+      "Value1": vm.value1,
+      "Value2": vm.value2  
+    },
+    {
+      "Value3": vm.value1,
+      "Value4": vm.value2  
+    },
+    {
+      "Value5": vm.value1,
+      "Value6": vm.value2  
+    }
+    ]
+    console.log(vm.theObject);
+    
     vm.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
