@@ -5,4 +5,22 @@
 </header>
 <div class="container">
 	<p>This is the AngularNavTest view.</p>
+	<div id="parent_has_name_world">
+		<div class="falskdiv">
+			<ul class="parentclass_contains">
+				<li class="li1">Hej</li>
+				<li class="li2">Hopp</li>
+			</ul>
+		</div>
+	</div>
 </div>
+
+<script>
+	// var test = $(".li1").parents('div[id*=world]').length;
+	// console.log(test);
+	if ($(".li1").parents('div[id*=world]').length == 1){		
+		console.log("JA");
+	}else{
+		console.log("NEJ");
+	}
+</script>

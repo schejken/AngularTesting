@@ -11,4 +11,5 @@ angular.module('angularTestApp')
   .controller('AngularnavtestCtrl', function ($scope) {
     $scope.pageClass = "page-angularnavtest";
     
+    
   });
